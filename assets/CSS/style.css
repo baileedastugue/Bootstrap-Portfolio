@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+
+#bkgrnd__main {
+    background-image: url(../../../../../../../Desktop/goldbrush.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+.bkgrnd {
+    background-color: white;
+}
+
+.transparent {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
