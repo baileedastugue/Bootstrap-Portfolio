@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
   }
 
 #bkgrnd__main {
@@ -9,7 +11,19 @@
 }
 
 .bkgrnd {
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+a:link {
+    color: #F8C7A7;
+}
+
+a:hover {
+    color: #F8C7A7;
+}
+
+a:visited {
+    color: #F8C7A7;
 }
 
 .transparent {
@@ -18,6 +32,13 @@
 
 .equal {
     display: flex;
-    display: -webkit-flex;
     flex-wrap: wrap;
   }
+
+footer {
+    background-color: #F39F90;
+}
+
+.font__focus {
+    font-family: 'Inconsolata', monospace;
+}
