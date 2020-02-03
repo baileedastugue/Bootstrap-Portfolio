@@ -48,6 +48,14 @@ a:hover {
 
 footer {
     background-color: #F39F90;
+    color: white;
+    text-align: right;
+    /* font-family: 'Rock Salt', cursive; */
+
+}
+
+footer .font__focus {
+    letter-spacing: 1em;
 }
 
 .font__focus {
@@ -76,11 +84,11 @@ h2 {
 
   /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #F8C7A7;
+    background: #F39F90;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #F39F90;
+    background: #F8C7A7;
   }
 
   @media screen and (max-width: 768px) {
