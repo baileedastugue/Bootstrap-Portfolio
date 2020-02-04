@@ -7,7 +7,8 @@
 #bkgrnd__main {
     background-image: url(../images/goldbrush.png);
     background-repeat: no-repeat;
-    background-position: 90% 50%;
+    background-position: 50% -10%;
+    background-attachment: fixed;
 }
 
 .bkgrnd {
@@ -104,4 +105,3 @@ h2 {
         justify-content: center;
     }
   }
-  
