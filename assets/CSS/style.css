@@ -37,8 +37,8 @@ a:visited {
 
 a:hover {
     font-style: italic;
-    color: #F8C7A7;
-    background-color: rgb(128, 128, 128, 0.2);
+    color: white;
+    background-color: rgb(128, 128, 128, 0.8);
     
 }
 
@@ -59,7 +59,7 @@ footer .font__focus {
 }
 
 .font__focus {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Courier Prime', monospace;
 }
 
 h2 {
@@ -121,6 +121,10 @@ h2 {
     /* width: 80%; */
 }
 
-.contact h1 {
+#contact__txt {
     position: absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-size: 3em;
 }
