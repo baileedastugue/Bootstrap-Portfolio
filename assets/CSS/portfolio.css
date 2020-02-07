@@ -4,20 +4,20 @@
 
 #port img {
     width: 300px;
-    outline: 2px solid #ffffff;
-    background-color: #ffffff;
+    height: 200px;
+    outline: 2px solid #F39F90;
     padding: 0px;
     margin: 0px;
 }
 
 #port .title {
     position: absolute;
+    width: 300px;
     bottom: 8%;
-    background-color: #eaac9d;
+    background-color: #F39F90;
     color: #ffffff;
     padding: 10px;
-    width: 300px; 
-    text-align: center;
+    text-align: center; 
 }
 
 #port img:hover{
