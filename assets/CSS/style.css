@@ -22,6 +22,7 @@ input[name=message] {
     text-align: top;
 }
 
+
 .aside.bkgrnd {
     background-color: gray;
     color: white;
@@ -31,16 +32,21 @@ a:link {
     color: gray;
 }
 
-a:visited {
+
+a:visited, .btn {
     color: #F39F90;
 }
 
 a:hover {
     font-style: italic;
     color: white;
-    background-color: rgb(128, 128, 128, 0.8);
-    
+    background-color: rgb(128, 128, 128, 0.8);    
 }
+
+.btn:focus, .btn.focus {
+    box-shadow: 0 0 0 0.2rem rgb(243, 159, 144, 0.5);
+}
+
 
 .transparent {
     background: rgb(255, 255, 255, 0.8);
@@ -50,8 +56,6 @@ footer {
     background-color: #F39F90;
     color: white;
     text-align: right;
-    /* font-family: 'Rock Salt', cursive; */
-
 }
 
 footer .font__focus {
@@ -118,7 +122,6 @@ h2 {
 
 #contact__img {
     position: relative;
-    /* width: 80%; */
 }
 
 #contact__txt {
