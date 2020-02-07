@@ -1,0 +1,34 @@
+#port {
+    position: relative;
+}
+
+#port img {
+    width: 300px;
+    outline: 2px solid #ffffff;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+#port .title {
+    position: absolute;
+    bottom: 8%;
+    background-color: #eaac9d;
+    color: #ffffff;
+    padding: 10px;
+    width: 300px; 
+    text-align: center;
+}
+
+#port img:hover{
+    opacity: 80%;
+}
+
+#port a:visited{
+    color: gray;
+}
+
+#port a:hover{
+    background-color: unset;
+    text-decoration: none;
+}
